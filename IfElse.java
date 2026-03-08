@@ -125,6 +125,65 @@ public class IfElse {
 	    		else {
 	    			System.out.println("Both numbers are equal");
 	    		}
+		
+		System.out.println("--------------------------------------------------------------------------------------"); 		
+	    		
+	    /*4. nested if statement :
+
+		     if(condition){
+			 // when if block condition is true then it is executed
+		     if(condition){
+			 // when if block condition is true then it is executed
+		           }
+		    }	
+	    	 */
+	    
+	   			if (true) {
+	   				System.out.println("Cars 3");
+	   			if (false) {
+	   				System.out.println("Avengers Endgame");
+			}
+		}
+	   			
+	   	System.out.println("--------------------------------------------------------------------------------------");
+	   			
+	   	/*5. nested if-else statement :
+
+			if(condition 1){
+			// when if block condition is true then it is executed
+		    if(condition 2){
+			// when if block condition is true then it is executed
+		     }else{
+		   }
+		    
+	   }	
+	   	 */
+	   			
+ 		int Age = 39;
+ 		int pinCode = 411019; 
+ 		double salary = 69000;
+	   
+	   			if (Age >= 18) {
+	   				System.out.println("1st Stage Clear move to Next Step");
+	   			if (pinCode >= 411019) { 
+		   				System.out.println("Loan is Available for specific city ...!");
+	   			if (salary >= 45000) {
+	   				System.out.println("Loan Approved ...!");
+	   			} 
+	   			else {
+	   				System.out.println("Not available in this city ");
+	   				}
+	   			}
+	   			else {
+	   				System.out.println(" sorry...! ");
+	   			}
+	   			}
+	   			else {
+	   				System.out.println("UR NOT ELIGIBLE ... !");
+	   			}
+	   			
+	   System.out.println("--------------------------------------------------------------------------------------");
 	    		
 	}
 }
+
