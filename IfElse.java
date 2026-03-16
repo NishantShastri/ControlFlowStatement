@@ -183,6 +183,16 @@ public class IfElse {
 	   			}
 	   			
 	   System.out.println("--------------------------------------------------------------------------------------");
+
+	   // To check leap year
+	   
+	   int i = 2004;
+			   if (i % 4 ==0) {
+			   System.out.println("This is a leap year");
+			   }
+			   else {
+			   System.out.println("This is not a leap year");
+			   	}
 	    		
 	}
 }
